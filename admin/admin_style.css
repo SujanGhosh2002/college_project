@@ -1,0 +1,85 @@
+:root {
+  --bg-color: #e3edf7;
+  --black-color: #000;
+  --white-color: #fff;
+  --shadow-color1: #00000026;
+  --shadow-color2: #ffffffb3;
+  --border: 0.1rem solid #00000033;
+}
+.dark-theme {
+  --bg-color: #070f2b;
+  --black-color: #ffffff;
+  --white-color: #000;
+  --shadow-color1: #9290c3;
+  --shadow-color2: #535c91;
+  --border: 0.1rem solid #ffffff33;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+i {
+  color: var(--black-color);
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
+/* top button */
+.arrow img {
+  width: 40px;
+  position: absolute;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0%;
+  right: 1%;
+  z-index: 9;
+}
+/* navbar */
+.navbar {
+  width: 97vw;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 0.938rem 1.875rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+.left-nav i {
+  font-size: 1.8rem;
+}
+.left-nav h1 {
+  color: var(--black-color);
+  margin-left: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.btn {
+  text-decoration: none;
+  color: var(--black-color);
+  text-transform: capitalize;
+  padding: 0.8rem 1.8rem;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  background-color: var(--bg-color);
+}
+.btn:hover {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
