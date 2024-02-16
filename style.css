@@ -148,6 +148,16 @@ body {
   box-shadow: 6px 6px 10px -1px var(--shadow-color1),
     -6px -6px 10px -1px var(--shadow-color2);
 }
+.contenar1 .img {
+  width: 50vw;
+  height: 70vh;
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  background-image: url(img/image3.png);
+  background-size: cover;
+  background-position: center;
+}
 .contenar1 .box {
   width: 30vw;
   height: 50vh;
@@ -178,6 +188,13 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.contenar2 .c2left {
+  font-size: 5rem;
+  position: absolute;
+  left: 1%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
 .contenar2 .c2top {
   position: absolute;
   top: 2%;
@@ -198,6 +215,13 @@ body {
 .contenar2 .c2bottom {
   position: absolute;
   bottom: 2%;
+}
+.contenar2 .c2right {
+  font-size: 5rem;
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 /* .contenar3 */
 .midile-part .contenar3 {
