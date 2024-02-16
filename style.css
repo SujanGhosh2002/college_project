@@ -194,6 +194,7 @@ body {
   left: 1%;
   top: 50%;
   transform: translate(0, -50%);
+  cursor: pointer;
 }
 .contenar2 .c2top {
   position: absolute;
@@ -222,6 +223,7 @@ body {
   right: 1%;
   top: 50%;
   transform: translate(0, -50%);
+  cursor: pointer;
 }
 /* .contenar3 */
 .midile-part .contenar3 {
