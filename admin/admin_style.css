@@ -157,10 +157,11 @@ i {
 .midile-left .left-bottom {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   padding: 0 2.5rem;
 }
 .left-bottom a {
+  font-size: 1.5rem;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--black-color);
@@ -173,24 +174,127 @@ i {
   box-shadow: 6px 6px 10px -1px var(--shadow-color1),
     -6px -6px 10px -1px var(--shadow-color2);
 }
-.midile-right .midile-contaner1 {
+.midile-right .midile-contaner {
   width: 100%;
   margin-bottom: 1rem;
   display: flex;
   gap: 1rem;
 }
-.midile-contaner1 .left-box {
+.midile-contaner .left-box {
   width: 50%;
-  padding: 1.5rem;
+  padding: 1rem;
   box-shadow: inset 6px 6px 10px -1px var(--shadow-color2),
     inset -6px -6px 10px -1px var(--shadow-color1);
+  display: flex;
+  gap: 1rem;
 }
-
-.midile-contaner1 .right-box {
+.left-box .left-box-left {
   width: 50%;
-  padding: 1.5rem;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.left-box-left .box-top {
+  width: 100%;
+  height: 90%;
+  background-image: url(../img/dp.png);
+  background-size: cover;
+  background-position: 50% 8%;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
+}
+.left-box-left .box-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.left-box .left-bottom-box-top {
+  width: 100%;
+  height: 100px;
+}
+.midile-contaner .left-bottom-box {
+  flex-direction: column;
+}
+.left-bottom-box .left-bottom-box-top {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  gap: 1rem;
+}
+.left-bottom-box-top .top-box-left,
+.top-box-right {
+  width: 100%;
+  height: 100%;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.left-box-top {
+  width: 100%;
+  height: 60%;
+  background-color: #f00;
+}
+.left-box-bottom {
+  width: 100%;
+  height: 40%;
+  background-color: #00f;
+}
+.left-bottom-box .left-bottom-box-bottom {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.left-bottom-box-bottom .bottom-box-top {
+  width: 100%;
+  height: 50%;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
+}
+.left-bottom-box-bottom .bottom-box-bottom {
+  width: 100%;
+  height: 50%;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
+}
+.left-box .left-box-right {
+  width: 50%;
+  padding: 1rem;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-transform: capitalize;
+}
+.midile-contaner .right-box {
+  width: 50%;
+  padding: 1rem;
   box-shadow: inset 6px 6px 10px -1px var(--shadow-color2),
     inset -6px -6px 10px -1px var(--shadow-color1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.right-box .right-box-row {
+  display: flex;
+  gap: 1rem;
+}
+.right-box-row .right-box-left {
+  width: 50%;
+  height: 140px;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
+}
+.right-box-row .right-box-right {
+  width: 50%;
+  height: 140px;
+  box-shadow: 6px 6px 10px -1px var(--shadow-color1),
+    -6px -6px 10px -1px var(--shadow-color2);
 }
 .footer {
   color: var(--black-color);
