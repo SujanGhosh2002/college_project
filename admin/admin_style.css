@@ -198,11 +198,14 @@ i {
 .left-box-left .box-top {
   width: 100%;
   height: 90%;
-  background-image: url(../img/dp.png);
   background-size: cover;
-  background-position: 50% 8%;
+  background-position: center;
   box-shadow: 6px 6px 10px -1px var(--shadow-color1),
     -6px -6px 10px -1px var(--shadow-color2);
+}
+.box-top img {
+  width: 100%;
+  height: 100%;
 }
 .left-box-left .box-bottom {
   display: flex;
